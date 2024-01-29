@@ -33,7 +33,7 @@ jobs:
     
       - name: Create local changes
         run: |
-            git add .
+            git add urls
       - name: Debug Permissions
         run: |
           echo "GitHub Token Permissions:"
